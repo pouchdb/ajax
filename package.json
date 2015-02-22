@@ -1,0 +1,37 @@
+{
+  "name": "pouchdb-ajax",
+  "version": "1.0.0",
+  "description": "Ajax module used in PouchDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "jshint -c .jshintrc *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pouchdb/ajax.git"
+  },
+  "keywords": [
+    "ajax",
+    "pouchdb"
+  ],
+  "author": "Nolan Lawson <nolan.lawson@gmail.com>",
+  "license": "Apache 2",
+  "bugs": {
+    "url": "https://github.com/pouchdb/ajax/issues"
+  },
+  "homepage": "https://github.com/pouchdb/ajax",
+  "dependencies": {
+    "argsarray": "0.0.1",
+    "pouchdb-extend": "^0.1.2",
+    "pouchdb-binary-util": "^1.0.0",
+    "pouchdb-errors": "^1.0.0",
+    "request": "~2.28.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.6.0"
+  },
+  "browser": {
+    "request": "./request-browser.js",
+    "./buffer.js": "./buffer-browser.js"
+  }
+}
