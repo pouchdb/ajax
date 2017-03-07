@@ -24,8 +24,8 @@
     "argsarray": "0.0.1",
     "pouchdb-extend": "^0.1.2",
     "pouchdb-binary-util": "^1.0.0",
-    "pouchdb-errors": "^1.0.0",
-    "request": "~2.28.0"
+    "pouchdb-errors": "^6.1.2",
+    "request": "~2.80.0"
   },
   "devDependencies": {
     "jshint": "^2.6.0"
